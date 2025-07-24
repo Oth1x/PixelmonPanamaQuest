@@ -9,9 +9,9 @@ public class PokemonPanama {
     private List<Ataque> ataques;
     private String rutaImagen;
     private String rutaImagenAtaque;
-    private String rutaImagenDmgRecibido; // NUEVO: Campo para la imagen de daño
+    private String rutaImagenDmgRecibido;
 
-    // CONSTRUCTOR ACTUALIZADO para aceptar la nueva ruta
+
     public PokemonPanama(String nombre, int vida, List<Ataque> ataques, String rutaImagen, String rutaImagenAtaque, String rutaImagenDmgRecibido) {
         this.nombre = nombre;
         this.vida = vida;
@@ -41,12 +41,12 @@ public class PokemonPanama {
         return rutaImagenAtaque;
     }
 
-    // NUEVO: Método para obtener la imagen de daño
+
     public String getRutaImagenDmgRecibido() {
         return rutaImagenDmgRecibido;
     }
 
-    // Los métodos de creación ahora incluyen la ruta de la imagen de daño
+
     public static PokemonPanama crearNeque() {
         List<Ataque> ataques = new ArrayList<>();
         ataques.add(new Ataque("Mordisco", 20));
