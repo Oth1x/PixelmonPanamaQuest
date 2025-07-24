@@ -38,10 +38,7 @@ public class PokemonSeleccion extends JFrame {
         iguanaButton.addActionListener(e -> iniciarCombate(PokemonPanama.crearIguana()));
     }
 
-    /**
-     * Este método ahora crea un JPanel personalizado directamente aquí,
-     * sin necesidad de una clase externa.
-     */
+
     private void cargarImagenes() {
         cargarImagen(lbNeque, "imagen/neque.png");
         cargarImagen(lbRanaDorada, "imagen/ranaDorada.png");
