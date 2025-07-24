@@ -176,11 +176,9 @@ public class Combate extends JFrame {
             JOptionPane.showMessageDialog(this, "¡Has sido derrotado! " + pokemonOponente.getNombre() + " gana.", "Derrota", JOptionPane.ERROR_MESSAGE);
             deshabilitarBotonesAtaque();
 
-            // --- CÓDIGO AÑADIDO ---
-            // Vuelve al menú principal después de perder
             MenuPrincipal menu = new MenuPrincipal();
             menu.setVisible(true);
-            dispose(); // Cierra la ventana de combate
+            dispose();
 
             return true;
         }
