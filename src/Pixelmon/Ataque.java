@@ -1,4 +1,4 @@
-package MenuPrincipal;
+package Pixelmon;
 
 public class Ataque {
     private String nombre;

@@ -1,4 +1,4 @@
-package MenuPrincipal;
+package Pixelmon;
 
 import javax.swing.*;
 import java.awt.*;

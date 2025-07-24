@@ -1,4 +1,4 @@
-package MenuPrincipal;
+package Pixelmon;
 
 import java.util.List;
 import java.util.ArrayList;
